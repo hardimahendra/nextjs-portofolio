@@ -1,0 +1,322 @@
+:root{
+    --dark-theme:#111111;
+    --light-theme:#dddddd;
+}
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+
+nav{
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 0 6px gray;
+    height:50px;
+    width:100%;
+    z-index:1;
+    background:#ffffff;
+}
+nav .powered{
+    display:flex;
+    padding-left:20px;
+}
+
+nav .powered h3{
+    font-style:italic;
+    color:black;
+}
+
+nav .toggle-theme{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0 20px;
+}
+
+.light{
+    font-size:30px;
+    color:orange;
+    cursor:pointer;
+}
+.dark{
+    font-size:30px;
+    color:#000;
+    cursor:pointer;
+}
+
+section{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:100vh;
+    width:100%;
+}
+
+.projects{
+    position:absolute;
+    left:3%;
+    height:100%;
+    overflow:hidden;
+}
+.projects .project{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:100%;
+    height:100%;
+
+}
+.projects .project .images{
+    display:flex;
+    flex-direction:column;
+}
+
+.projects .project .images .image-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content:center !important;
+    align-items:center !important;
+    padding:10px;
+    height:470px;
+}
+
+.projects .project .images .image-wrapper .main-project{
+    position:relative;
+    display:block;
+    margin: 5px 0 ;
+}
+.projects .project .images .image-wrapper .other-project{
+    position:relative;
+    diplay:inline-block;
+    padding-top: 5px;
+    overflow:hidden;
+}
+.other-project img, .others img{
+    margin:0 5px;
+}
+
+.main-project img, .other-project img{
+    cursor:pointer;
+    transition:0.5s;
+}
+.main-project img:hover, .other-project img:hover{
+    transform:scale(0.9);
+}
+
+.projects .project .images .change-image{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.projects .project .images .badge-wrapper{
+    margin: 0 100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.projects .project .images .badge-item{
+    height:17px;
+    width:17px;
+    display:block;
+    margin:0 5px;
+    border-radius:50%;
+    background:gray;
+    cursor:pointer;
+}
+.projects .project .images .badge-item:hover{
+    background:#ffffff;
+    box-shadow: 0px 0px 15px 0px #010E35;
+}
+
+.projects .project .project-info{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+    height:450px;
+    padding:30px;
+}
+
+.projects .project .project-info h1{
+    padding-bottom:2rem;
+    font-size:30px;
+}
+.projects .project .project-info p{
+    font-size:17px;
+    font-weight:normal;
+}
+.projects .project .project-info .visit-btn{
+    width:100%;
+    text-align:right;
+    height:50px;
+    margin-top:20px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.projects .project .project-info .visit-btn a{
+    color:white;
+    font-weight:normal;
+    height:35px;
+    width:120px;
+    background-color:gray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    transition:.4s;
+}
+.visit-btn a:hover{
+    transform:translate(-7px, -5px);
+    box-shadow: 5px 2px 10px #010E35;
+}
+
+/* ==================================== */
+.about{
+    position:absolute;
+    right:3%;
+    top:10%;
+    height:200px;
+    width:150px;
+}
+.about .profil{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:absolute;
+}
+.about .profil img{
+    border-radius:50%;
+    z-index:1;
+}
+.about .profil .info-author{
+    display:none;
+    transition:.5s;
+}
+
+.about .profil:hover .info-author{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    transform:translate(-45%, 44%);
+    background:gray;
+    width:280px;
+    padding:10px 5px;
+    text-align:left;
+    opacity:0.7;
+    box-shadow: 0px 0px 15px 0px #010E35;
+
+}
+.about .profil .info-author h1{
+    font-size:20px;
+    font-weight:normal;
+    padding:3px 0;
+}
+
+.about .social-media{
+    display:flex;
+    position:absolute;
+    bottom:0;
+}
+.about .social-media a img{
+    border-radius:50%;
+    transition:.2s;
+    margin: 0 9px ;
+    box-shadow:0 0 6px gray;
+}
+.about .social-media a img:hover{
+    transform:scale(1.1);
+}
+/* ========================== */
+.footer{
+    bottom:0;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    display:flex;
+    box-shadow:0 0 6px gray;
+    height:60px;
+    width:100%;
+    background:#ffffff;
+}
+
+.footer .author{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+}
+.footer .author p a{
+    color:red;
+}
+
+/* =================== */
+
+.about-footer{
+    height:50px;
+    display:none;
+}
+.about-footer .profil-footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:absolute;
+}
+.about-footer .profil-footer img{
+    border-radius:50%;
+    z-index:1;
+}
+.about-footer .profil-footer .info-author-footer{
+    display:none;
+    transition:.5s;
+}
+
+.about-footer .profil-footer:hover .info-author-footer{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    transform:translate(50%, -75%);
+    background:gray;
+    width:250px;
+    padding:10px 5px;
+    text-align:left;
+    box-shadow: 0px 0px 15px 0px #010E35;
+
+}
+.about-footer .profil-footer .info-author-footer h1{
+    font-size:20px;
+    font-weight:normal;
+    padding:3px 0;
+}
+
+.about-footer .social-media-footer{
+    align-items:center;
+    display:flex;
+    margin-left:auto;
+}
+.about-footer .social-media-footer a img{
+    border-radius:50%;
+    transition:.2s;
+    margin: 0 9px ;
+    box-shadow:0 0 6px gray;
+}
+.about-footer .social-media-footer a img:hover{
+    transform:scale(1.1);
+}
