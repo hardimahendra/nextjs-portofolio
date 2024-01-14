@@ -45,7 +45,7 @@ export default function Project() {
             <h1>Lathy Private</h1>
             <p>Pengambangan website pribadi menggunakan, MongoDB, Express, React, Node.js.</p>
             <div className="visit-btn">
-              <a type="button" href="https://lathy-private.vercel.app/" target="_blank" rel="noreferrer">
+              <a type="button" href="https://lathy-private.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
@@ -54,7 +54,7 @@ export default function Project() {
             <h1>Shopping Tech</h1>
             <p>Pengembangan website Dinamis menggunaakan React dan Vite.</p>
             <div className="visit-btn">
-              <a type="button" href="https://shopping-cart-mocha-alpha.vercel.app/" target="_blank" rel="noreferrer">
+              <a type="button" href="https://shopping-cart-mocha-alpha.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function Project() {
             <h1>Sistem Magang</h1>
             <p>Pengembangan Website Statis menggunakan React dan Vite.</p>
             <div className="visit-btn">
-              <a type="button" href="https://sistem-magang-mahasiswa.vercel.app/" target="_blank" rel="noreferrer">
+              <a type="button" href="https://sistem-magang-mahasiswa.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
@@ -72,7 +72,7 @@ export default function Project() {
             <h1>Travel Go</h1>
             <p>Pengembangan Website Statis menggunakan HTML, CSS dan Javascript.</p>
             <div className="visit-btn">
-              <a type="button" href="https://travel-go-chi.vercel.app/" target="_blank" rel="noreferrer">
+              <a type="button" href="https://travel-go-chi.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
