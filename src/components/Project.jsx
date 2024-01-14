@@ -45,7 +45,7 @@ export default function Project() {
             <h1>Lathy Private</h1>
             <p>Pengambangan website pribadi menggunakan, MongoDB, Express, React, Node.js.</p>
             <div className="visit-btn">
-              <a type="button" href="https://lathy-private.vercel.app/" target="_blank">
+              <a type="button" href="https://lathy-private.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -54,7 +54,7 @@ export default function Project() {
             <h1>Shopping Tech</h1>
             <p>Pengembangan website Dinamis menggunaakan React dan Vite.</p>
             <div className="visit-btn">
-              <a type="button" href="https://shopping-cart-mocha-alpha.vercel.app/" target="_blank">
+              <a type="button" href="https://shopping-cart-mocha-alpha.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function Project() {
             <h1>Sistem Magang</h1>
             <p>Pengembangan Website Statis menggunakan React dan Vite.</p>
             <div className="visit-btn">
-              <a type="button" href="https://sistem-magang-mahasiswa.vercel.app/" target="_blank">
+              <a type="button" href="https://sistem-magang-mahasiswa.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -72,7 +72,7 @@ export default function Project() {
             <h1>Travel Go</h1>
             <p>Pengembangan Website Statis menggunakan HTML, CSS dan Javascript.</p>
             <div className="visit-btn">
-              <a type="button" href="https://travel-go-chi.vercel.app/" target="_blank">
+              <a type="button" href="https://travel-go-chi.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -81,7 +81,7 @@ export default function Project() {
             <h1>Todo List</h1>
             <p>Pengembangan website daftar tugas sederhana menggunakan React Js.</p>
             <div className="visit-btn">
-              <a type="button" href="https://todo-list-two-orcin.vercel.app/" target="_blank">
+              <a type="button" href="https://todo-list-two-orcin.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -90,7 +90,7 @@ export default function Project() {
             <h1>Calculator</h1>
             <p>Pengembangan kalkulator berbasis website sederhana menggunakan React Js.</p>
             <div className="visit-btn">
-              <a type="button" href="https://calculator-three-flax.vercel.app/" target="_blank">
+              <a type="button" href="https://calculator-three-flax.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
@@ -99,7 +99,7 @@ export default function Project() {
             <h1>Snapshoot</h1>
             <p>Pengembangan website potret gambar yang diambil dari Unsplash.com menggunakan Axios API.</p>
             <div className="visit-btn">
-              <a type="button" href="https://snapshoot-theta.vercel.app/" target="_blank">
+              <a type="button" href="https://snapshoot-theta.vercel.app/" target="_blank" rel="noreferrer">
                 Visit
               </a>
             </div>
