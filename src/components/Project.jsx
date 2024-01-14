@@ -21,9 +21,9 @@ export default function Project() {
                 <Image width={190} onClick={() => setIndex(3)} height={100} alt="lathy" src="/images/travel-go.jpg" />
               </div>
               <div className="others" hidden={badge != 1}>
-                <Image width={190} onClick={() => setIndex(4)} height={100} alt="lathy" src="/images/img-1.jpg" />
-                <Image width={190} onClick={() => setIndex(5)} height={100} alt="lathy" src="/images/img-2.jpg" />
-                <Image width={190} onClick={() => setIndex(6)} height={100} alt="lathy" src="/images/img-3.jpg" />
+                <Image width={190} onClick={() => setIndex(4)} height={100} alt="lathy" src="/images/todolist.png" />
+                <Image width={190} onClick={() => setIndex(5)} height={100} alt="lathy" src="/images/calculator.png" />
+                <Image width={190} onClick={() => setIndex(6)} height={100} alt="lathy" src="/images/snapshoot.png" />
               </div>
               <div className="others" hidden={badge != 2}>
                 <Image width={190} onClick={() => setIndex(7)} height={100} alt="lathy" src="/images/img-4.jpg" />
@@ -77,43 +77,34 @@ export default function Project() {
               </a>
             </div>
           </div>
-          {/* <div className="info" hidden={index != 4}>
-            <h1>Kimak Project</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil cupiditate, quam dicta dolorem at pariatur error amet reprehenderit explicabo deserunt vitae ipsa eaque obcaecati, modi sit perferendis eligendi
-              asperiores consequatur, assumenda sapiente! Aliquid alias fugit fugiat quos dolor aut sit, suscipit atque! Molestias, hic numquam reiciendis vero ea eveniet.
-            </p>
+          <div className="info" hidden={index != 4}>
+            <h1>Todo List</h1>
+            <p>Pengembangan website daftar tugas sederhana menggunakan React Js.</p>
             <div className="visit-btn">
-              <a type="button" href="#" target="_blank">
+              <a type="button" href="https://todo-list-two-orcin.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
           </div>
           <div className="info" hidden={index != 5}>
-            <h1>Yazuho Project</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil cupiditate, quam dicta dolorem at pariatur error amet reprehenderit explicabo deserunt vitae ipsa eaque obcaecati, modi sit perferendis eligendi
-              asperiores consequatur, assumenda sapiente! Aliquid alias fugit fugiat quos dolor aut sit, suscipit atque! Molestias, hic numquam reiciendis vero ea eveniet.
-            </p>
+            <h1>Calculator</h1>
+            <p>Pengembangan kalkulator berbasis website sederhana menggunakan React Js.</p>
             <div className="visit-btn">
-              <a type="button" href="#" target="_blank">
+              <a type="button" href="https://calculator-three-flax.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
           </div>
           <div className="info" hidden={index != 6}>
-            <h1>Mini Fan Project</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil cupiditate, quam dicta dolorem at pariatur error amet reprehenderit explicabo deserunt vitae ipsa eaque obcaecati, modi sit perferendis eligendi
-              asperiores consequatur, assumenda sapiente! Aliquid alias fugit fugiat quos dolor aut sit, suscipit atque! Molestias, hic numquam reiciendis vero ea eveniet.
-            </p>
+            <h1>Snapshoot</h1>
+            <p>Pengembangan website potret gambar yang diambil dari Unsplash.com menggunakan Axios API.</p>
             <div className="visit-btn">
-              <a type="button" href="#" target="_blank">
+              <a type="button" href="https://snapshoot-theta.vercel.app/" target="_blank">
                 Visit
               </a>
             </div>
           </div>
-          <div className="info" hidden={index != 7}>
+          {/* <div className="info" hidden={index != 7}>
             <h1>Pencari Hacker</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus nihil cupiditate, quam dicta dolorem at pariatur error amet reprehenderit explicabo deserunt vitae ipsa eaque obcaecati, modi sit perferendis eligendi

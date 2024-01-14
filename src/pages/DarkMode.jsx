@@ -16,7 +16,10 @@ const DarkMode = () => {
   return (
     <>
       <span value={theme} onChange={(e) => setTheme(e.target.value)}>
-        <i>{currentTheme === 'dark' ? <BsFillSunFill value="light" className="light" onClick={() => setTheme('light')} /> : <BsFillMoonFill value="dark" className="dark" onClick={() => setTheme('dark')} />}</i>
+        <i>{currentTheme === 
+        'dark' 
+        ? <BsFillSunFill value="light" className="light" onClick={() => setTheme('light')} /> 
+        : <BsFillMoonFill value="dark" className="dark" onClick={() => setTheme('dark')} />}</i>
       </span>
     </>
   );
