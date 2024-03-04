@@ -9,12 +9,22 @@ export default function Home() {
   return (
     <>
       <Providers>
-          <Navbar />
-          <section>
-            <Project />
-            <Profil />
-          </section>
-          <Footer />
+        <div className="slider-thumb">
+          <div className="cube-wrapper">
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+          </div>
+        </div>
+        <Navbar />
+        <section>
+          <Project />
+          <Profil />
+        </section>
+        <Footer />
       </Providers>
     </>
   );
