@@ -12,7 +12,7 @@ export default function Project() {
           <h1>Project Personal</h1>
           <div className="image-wrapper">
             <div className="main-project">
-              <Image width={600} height={350} onClick={() => setIndex(0)} alt="lathy" src="/images/lathy-private.png" />
+              <Image width={600} height={350} onClick={() => setIndex(0)} alt="lathy" src="/images/lathy.png" />
             </div>
             <div className="other-project">
               <div className="other-main" hidden={badge != 0}>

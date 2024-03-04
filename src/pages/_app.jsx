@@ -1,7 +1,4 @@
 import "./globals.css"
-import "./responsive.css"
-
-
 import Head from 'next/head';
 import Providers from '../pages/Providers';
 function MyApp({ Component, pageProps }) {
