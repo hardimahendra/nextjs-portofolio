@@ -1,0 +1,53 @@
+{
+  "projectData": [
+    {
+      "id": 1,
+      "title": "Lathy Private",
+      "desc": "Pengambangan website pribadi menggunakan, MongoDB, Express, React, Node.js.",
+      "href": "https://lathy-private.vercel.app/",
+      "image": "/images/lathy.png"
+    },
+    {
+      "id": 2,
+      "title": "Sistem Magang",
+      "desc": "Pengembangan Website Statis menggunakan React dan Vite.",
+      "href": "https://sistem-magang-mahasiswa.vercel.app/",
+      "image": "/images/sistem-magang.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Travel Go",
+      "desc": "Pengembangan Website Statis menggunakan HTML, CSS dan Javascript.",
+      "href": "https://lathy-private.vercel.app/",
+      "image": "/images/travel-go.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Todo List",
+      "desc": "Pengembangan website daftar tugas sederhana menggunakan React Js.",
+      "href": "https://todo-list-two-orcin.vercel.app/",
+      "image": "/images/todolist.png"
+    },
+    {
+      "id": 5,
+      "title": "Shooping Cart",
+      "desc": "Pengembangan website pribadi mengguanakan react js",
+      "href": "https://shopping-cart-mocha-alpha.vercel.app/",
+      "image": "/images/shopping-cart.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Calculator",
+      "desc": "Pengembangan kalkulator berbasis website sederhana menggunakan React Js.",
+      "href": "https://calculator-three-flax.vercel.app/",
+      "image": "/images/calculator.png"
+    },
+    {
+      "id": 7,
+      "title": "Snapshoot",
+      "desc": "Pengembangan website potret gambar yang diambil dari Unsplash.com menggunakan Axios API.",
+      "href": "https://snapshoot-theta.vercel.app/",
+      "image": "/images/snapshoot.png"
+    }
+  ]
+}

@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Profil() {
   return (
-    <div className="about">
-      <div className="profil">
+    <div className="absolute right-[15%] top-[30%] bg-yellow-500 h-[300px] w-[300px] flex justify-center items-center rounded">
+      <div className="absolute">
         <div className="info-author">
           <h1>Hardi Mahendra</h1>
           <hr />

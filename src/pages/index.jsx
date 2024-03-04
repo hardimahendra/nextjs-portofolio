@@ -9,22 +9,13 @@ export default function Home() {
   return (
     <>
       <Providers>
-        <div className="slider-thumb">
-          <div className="cube-wrapper">
-            <div className="cube"></div>
-            <div className="cube"></div>
-            <div className="cube"></div>
-            <div className="cube"></div>
-            <div className="cube"></div>
-            <div className="cube"></div>
-          </div>
-        </div>
+        <div className="slider-thumb"></div>
         <Navbar />
         <section>
           <Project />
           <Profil />
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </Providers>
     </>
   );
