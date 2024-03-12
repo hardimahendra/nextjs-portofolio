@@ -1,12 +1,6 @@
 {
   "projectData": [
-    {
-      "id": 1,
-      "title": "Lathy Private",
-      "desc": "Pengambangan website pribadi menggunakan, MongoDB, Express, React, Node.js.",
-      "href": "https://lathy-private.vercel.app/",
-      "image": "/images/lathy.png"
-    },
+
     {
       "id": 2,
       "title": "Sistem Magang",

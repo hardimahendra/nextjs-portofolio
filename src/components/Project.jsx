@@ -1,29 +1,40 @@
 import { useEffect, useState } from 'react';
 import { projectData } from '../data/data.json';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
-import Image from 'next/image';
+import { Mousewheel, Pagination } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import 'swiper/css/thumbs';
+
 export default function Project() {
   const projects = projectData;
   const [index, setIndex] = useState(1);
   const [badge, setBadge] = useState(0);
-  const [thumbsSwiper, setThumbsSwiper] = useState();
   return (
-    <div className="flex flex-column justify-center itemx-center w-[65%] ">
-      <div className="flex flex-row flex-wrap items-center bg-blue-500 w-full p-4">
-          <div className="bg-red-500 ">
-            <img width={300} height={300} alt="image-project" src="/images/lathy.png"/>
-          </div>
-          <div className="bg-green-500 px-2">
-            <img width={600} height={300} alt="image-project" src="/images/lathy.png"/>
-          </div>
-          <div className="bg-blue-500 ">
-            <img width={300} height={300} alt="image-project" src="/images/lathy.png"/>
-          </div>
+    <div className="flex flex-column justify-center itemx-center ">
+      <div className="flex flex-row flex-wrap gap-4 w-full m-3">
+        <div>
+          <img className=" cursor-pointer" width={850} height={300} alt="lathy" src="/images/lathy.png" />
+        </div>
+        <div className="h-[400px] bg-red-500 ">
+          <Swiper
+            direction={'vertical'}
+            slidesPerView={1}
+            spaceBetween={30}
+            mousewheel={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Mousewheel, Pagination]}
+            className="mySwiper"
+          >
+            {projects.map((item) => (
+              <SwiperSlide key={item.id} >
+                <img className="py-1" width={350} height={300} alt="sistem-magang" src={item.image} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
       {/* <div className="">
         {projects.map((item) => (
