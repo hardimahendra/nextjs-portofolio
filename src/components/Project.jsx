@@ -1,41 +1,29 @@
 import { useEffect, useState } from 'react';
 import { projectData } from '../data/data.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+import 'swiper/css/thumbs';
 export default function Project() {
   const projects = projectData;
   const [index, setIndex] = useState(1);
   const [badge, setBadge] = useState(0);
-
+  const [thumbsSwiper, setThumbsSwiper] = useState();
   return (
-    <div className="flex flex-column justify-center itemx-center w-[60%] h-full bg-red-500">
-      <div className="flex justify-center items-center bg-blue-500">
-        <Swiper
-          effect={'coverflow'}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={'auto'}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination]}
-          className="mySwiper w-[500px] h-[300px]"
-        >
-          {projects.map((item) => (
-            <SwiperSlide  key={item.id}>
-              <img  onClick={() => setIndex(item.id)} alt="lathy" src={item.image} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <div className="flex flex-column justify-center itemx-center w-[65%] ">
+      <div className="flex flex-row flex-wrap items-center bg-blue-500 w-full p-4">
+          <div className="bg-red-500 ">
+            <img width={300} height={300} alt="image-project" src="/images/lathy.png"/>
+          </div>
+          <div className="bg-green-500 px-2">
+            <img width={600} height={300} alt="image-project" src="/images/lathy.png"/>
+          </div>
+          <div className="bg-blue-500 ">
+            <img width={300} height={300} alt="image-project" src="/images/lathy.png"/>
+          </div>
       </div>
       {/* <div className="">
         {projects.map((item) => (

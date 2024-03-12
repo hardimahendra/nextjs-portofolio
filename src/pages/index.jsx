@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar />
         <section>
           <Project />
-          <Profil />
+          {/* <Profil /> */}
         </section>
         {/* <Footer /> */}
       </Providers>
