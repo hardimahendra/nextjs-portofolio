@@ -1,6 +1,12 @@
 {
   "projectData": [
-
+    {
+      "id": 1,
+      "title": "Lathy Private",
+      "desc": "Pengembangan Website Statis menggunakan React dan Vite.",
+      "href": "https://sistem-magang-mahasiswa.vercel.app/",
+      "image": "/images/lathy.png"
+    },
     {
       "id": 2,
       "title": "Sistem Magang",
