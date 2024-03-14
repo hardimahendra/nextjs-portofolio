@@ -13,7 +13,7 @@
       "title": "Travel Go",
       "desc": "Pengembangan Website Statis menggunakan HTML, CSS dan Javascript.",
       "href": "https://lathy-private.vercel.app/",
-      "image": "/images/travel-go.jpg"
+      "image": "/images/travel-go.png"
     },
     {
       "id": 4,
@@ -27,7 +27,7 @@
       "title": "Shooping Cart",
       "desc": "Pengembangan website pribadi mengguanakan react js",
       "href": "https://shopping-cart-mocha-alpha.vercel.app/",
-      "image": "/images/shopping-cart.jpg"
+      "image": "/images/shopping-cart.png"
     },
     {
       "id": 6,
